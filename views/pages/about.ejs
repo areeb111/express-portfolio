@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+  <div class="jumbotron">
+    <h1>About me:</h1>
+    <p>
+      <!-- Personal image of me -->
+
+      <img src="img/PersonalPhoto.jpg" class="rounded w-25 h-25 float-right" alt="Areeb's Personal Photo">
+
+      <!-- Short description with link to PDF version of CV -->
+
+      My name is: Areeb Mohamed Abdulridha Al-Quraishi, A software developer from Baghdad, Iraq.
+      <br>
+      I am studying Software Engineering Technology as an advanced diploma degree in Centennial College, Ontario, Canada. <br>
+      My expertise goes with front-end development using modern tools such as VueJS, NuxtJS and Javascript, Also i am an expert Linux system administrator with a long experience of servers management and web hosting experience.
+      <br> You can download my CV <a href="/pdf/cv.pdf" target="_blank">by clicking here.</a>
+    </p>
+  </div>
+</main>
+
+<footer>
+  <!-- Footer is being called from a partial template to avoid repeating -->
+
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>

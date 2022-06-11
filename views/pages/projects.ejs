@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+  <!-- We're using Bootstrap grid feature to display our products as cards and it will be responsive in the same time. -->
+
+  <div class="jumbotron">
+    <h1>Projects:</h1>
+    <div>
+      <div>
+      I have worked on many projects in the last 10 years of my career, But I will mention some of featured projects here:
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-sm">
+          <div class="card">
+            <img class="card-img-top" src="/img/ataa.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title"><strong>Ataa' Workshop Management</strong></p>
+              <p class="card-text">This software built exclusively for Ataa' vehicles maintenance workshop, To organize their daily work based on jobcards and maintenance requests also to manage their spare parts store. I worked on front-end developement as a major role and sometimes I am doing some bug fixes on PHP backend. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <img class="card-img-top" src="/img/yummy.webp" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title"><strong>Yummy Food Delivery</strong></p>
+              <p class="card-text">This project is still in progress, But it's a complex set of apps that i have worked across several responsibilities including front-end layouts design and implementation for both Android & iOS, Project management and Database design.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <img class="card-img-top" src="/img/online.webp" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-title"><strong>Online POS System</strong></p>
+              <p class="card-text">
+                This is a digital goods platform for B2B retail stores. <br>
+                I worked as a part of the team with responsibilities of UI/UX design, Android App development and some parts of the backend.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>
